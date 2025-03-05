@@ -93,8 +93,68 @@ mvn test
   git add .
   git commit -m "Initial commit"
   git branch -M main
-  git remote add origin https://github.com/your-username/SecretSantaGame.git
+  git remote add origin https://github.com/SirimallaSmaran/SecretSantaGame.git
   git push -u origin main
   ```
+-----------This are the commands i have used to my code to Github-----------------
+HP@DESKTOP-BE8AT7U MINGW64 ~/eclipse-workspace/SecretSantaGame (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/HP/eclipse-workspace/SecretSantaGame/.git/
 
+HP@DESKTOP-BE8AT7U MINGW64 ~/eclipse-workspace/SecretSantaGame (master)
+$ git add .
+warning: in the working copy of 'output/Secret-Santa-Assignments.csv', LF will be replaced by CRLF the next time Git touches it
+
+HP@DESKTOP-BE8AT7U MINGW64 ~/eclipse-workspace/SecretSantaGame (master)
+$ git commit -m "Initial commit"
+[master (root-commit) ad2ad6c] Initial commit
+ 21 files changed, 439 insertions(+)
+ create mode 100644 .classpath
+ create mode 100644 .project
+ create mode 100644 .settings/org.eclipse.jdt.apt.core.prefs
+ create mode 100644 .settings/org.eclipse.jdt.core.prefs
+ create mode 100644 .settings/org.eclipse.m2e.core.prefs
+ create mode 100644 README.md
+ create mode 100644 data/Employee-List.xlsx
+ create mode 100644 data/Secret-Santa-Game-Result-2023.xlsx
+ create mode 100644 output/Secret-Santa-Assignments.csv
+ create mode 100644 pom.xml
+ create mode 100644 src/main/java/com/secretsanta/Main.java
+ create mode 100644 src/main/java/com/secretsanta/model/Employee.java
+ create mode 100644 src/main/java/com/secretsanta/service/SecretSantaAssigner.java
+ create mode 100644 src/main/java/com/secretsanta/utils/ExcelReader.java
+ create mode 100644 target/classes/META-INF/MANIFEST.MF
+ create mode 100644 target/classes/META-INF/maven/com.secretsanta/SecretSantaGame/pom.properties
+ create mode 100644 target/classes/META-INF/maven/com.secretsanta/SecretSantaGame/pom.xml
+ create mode 100644 target/classes/com/secretsanta/Main.class
+ create mode 100644 target/classes/com/secretsanta/model/Employee.class
+ create mode 100644 target/classes/com/secretsanta/service/SecretSantaAssigner.class
+ create mode 100644 target/classes/com/secretsanta/utils/ExcelReader.class
+
+HP@DESKTOP-BE8AT7U MINGW64 ~/eclipse-workspace/SecretSantaGame (master)
+$ git branch -M main
+
+HP@DESKTOP-BE8AT7U MINGW64 ~/eclipse-workspace/SecretSantaGame (main)
+$ git remote add origin https://github.com/SirimallaSmaran/SecretSantaGame.git
+
+HP@DESKTOP-BE8AT7U MINGW64 ~/eclipse-workspace/SecretSantaGame (main)
+$ git push -u origin main
+remote: Repository not found.
+fatal: repository 'https://github.com/SirimallaSmaran/SecretSantaGame.git/' not found
+
+HP@DESKTOP-BE8AT7U MINGW64 ~/eclipse-workspace/SecretSantaGame (main)
+$ ^C
+
+HP@DESKTOP-BE8AT7U MINGW64 ~/eclipse-workspace/SecretSantaGame (main)
+$ git push -u origin main
+Enumerating objects: 44, done.
+Counting objects: 100% (44/44), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (32/32), done.
+Writing objects: 100% (44/44), 29.36 KiB | 2.94 MiB/s, done.
+Total 44 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/SirimallaSmaran/SecretSantaGame.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
 
