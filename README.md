@@ -34,7 +34,7 @@ SecretSantaGame/
 ### Steps
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/SecretSantaGame.git
+   git clone https://github.com/SirimallaSmaran/SecretSantaGame.git
    cd SecretSantaGame
    ```
 2. Build the project:
